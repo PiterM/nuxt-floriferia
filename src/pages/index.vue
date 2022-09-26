@@ -1,11 +1,15 @@
-<script lang="ts">
-import Vue from "vue";
-
-export default Vue.extend({
-  name: "IndexPage",
-});
+<script setup lang="ts">
+import MainHeader from "../components/MainHeader/MainHeader.vue";
+import IntroSection from "../components/IntroSection/IntroSection.vue";
+import AboutSection from "../components/AboutSection/AboutSection.vue";
+import WorksSection from "../components/WorksSection/WorksSection.vue";
 </script>
 
 <template>
-  <Tutorial />
+  <div>
+    <MainHeader />
+    <IntroSection />
+    <AboutSection />
+    <WorksSection />
+  </div>
 </template>
