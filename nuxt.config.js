@@ -20,6 +20,13 @@ export default {
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [
+      { src: "/js/modernizr.js" },
+      { src: "/js/pace.min.js" },
+      { src: "/js/jquery-3.2.1.min.js", body: true },
+      { src: "/js/plugins.js", body: true },
+      { src: "/js/main.js", body: true },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

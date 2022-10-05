@@ -3,6 +3,7 @@ import MainHeader from "../components/MainHeader/MainHeader.vue";
 import IntroSection from "../components/IntroSection/IntroSection.vue";
 import AboutSection from "../components/AboutSection/AboutSection.vue";
 import WorksSection from "../components/WorksSection/WorksSection.vue";
+import PhotoSwipe from "../components/PhotoSwipe/PhotoSwipe.vue";
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import WorksSection from "../components/WorksSection/WorksSection.vue";
     <IntroSection />
     <AboutSection />
     <WorksSection />
+    <PhotoSwipe />
   </div>
 </template>
