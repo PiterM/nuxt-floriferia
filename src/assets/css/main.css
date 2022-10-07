@@ -81,7 +81,7 @@ body {
 }
 
 body {
-  font-family: "librebaskerville-regular", serif;
+  font-family: "Domine", serif;
   font-size: 1.6rem;
   line-height: 1.875;
   color: #5f5f5f;
@@ -255,12 +255,12 @@ b {
 
 em,
 i {
-  font-family: "librebaskerville-italic", serif;
+  font-family: "Domine", serif;
 }
 
 strong,
 b {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
 }
 
 small {
@@ -313,7 +313,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 0.05rem;
@@ -483,7 +483,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "librebaskerville-regular", serif;
+  font-family: "Domine", serif;
 }
 
 th,
@@ -1315,7 +1315,7 @@ input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
   font-size: 4.8rem;
   line-height: 1.375;
   margin-top: 0;
@@ -1815,10 +1815,11 @@ input::-moz-focus-inner {
 }
 
 .intro-content h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
   color: #ffffff;
   font-size: 10rem;
   line-height: 1.35;
+  letter-spacing: 2px;
   margin-top: 0;
 }
 
@@ -2384,7 +2385,7 @@ html.no-csstransitions .intro-content__main {
 
 .masonry .grid-sizer,
 .masonry__brick {
-  width: 400px;
+  width: 200px;
 }
 
 .masonry__brick {
@@ -2664,7 +2665,7 @@ html.no-csstransitions .intro-content__main {
 }
 
 .testimonials-header h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
   font-size: 4.2rem;
   margin-top: 0;
   color: #ffffff;
@@ -2944,7 +2945,7 @@ html.no-csstransitions .intro-content__main {
 }
 
 .stats__count {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
   font-size: 7.2rem;
   line-height: 1;
   color: #0d0a0b;
@@ -3649,7 +3650,7 @@ article.blog-single .blog-content {
 .page-header__title {
   color: #ffffff;
   position: relative;
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Domine", serif;
   font-size: 6.6rem;
   line-height: 1.227;
   margin-top: 0;
